@@ -1,0 +1,127 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+h2{
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.columna{
+    background: rgb(221, 50, 78);
+    color: rgb(226, 216, 216);
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px #888;
+    width: 24%;
+    box-sizing: border-box;
+}
+.columna1{
+    background: rgb(7, 104, 3);
+    color: rgb(226, 216, 216);
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px #888;
+}
+.columna2{
+    background: rgb(5, 77, 145);
+    color: rgb(226, 216, 216);
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px #888;
+}
+.columna3{
+    background: rgb(134, 2, 84);
+    color: rgb(226, 216, 216);
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px #888;
+}
+.columna4{
+    background: rgb(175, 164, 0);
+    color: rgb(226, 216, 216);
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 4px #888;
+}
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1070px){
+    .columna1{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1070px){
+    .columna2{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1070px){
+    .columna3{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1070px){
+    .columna4{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
